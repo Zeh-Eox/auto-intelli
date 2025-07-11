@@ -13,27 +13,32 @@ L'application offre une expérience utilisateur fluide avec une interface dével
 ## ✨ Fonctionnalités
 
 ### 🔐 Authentification & Sécurité
+
 - Connexion sécurisée par email/mot de passe via Firebase
 - Gestion des sessions utilisateur
 - Protection des routes privées
 
 ### 💬 Chat Intelligent
+
 - Intégration complète avec l'API Gemini de Google AI
 - Réponses contextuelles et personnalisées
 - Support des conversations multi-tours
 
 ### 📚 Gestion des Données
+
 - Historique des messages persisté côté client
 - Sauvegarde automatique des conversations
 - Recherche dans l'historique
 
 ### 🎨 Interface Utilisateur
+
 - Design moderne et responsive (mobile/desktop)
 - Animations fluides avec Framer Motion
 - Mode sombre/clair (à venir)
 - Notifications en temps réel
 
 ### 🛡️ Robustesse
+
 - Gestion avancée des erreurs
 - États de chargement dynamiques
 - Retry automatique en cas d'échec
@@ -43,17 +48,20 @@ L'application offre une expérience utilisateur fluide avec une interface dével
 ## 🛠️ Stack Technique
 
 ### Frontend
+
 - **[React](https://reactjs.org/)** - Librairie UI moderne
 - **[Framer Motion](https://www.framer.com/motion/)** - Animations fluides
 - **[Lucide React](https://lucide.dev/)** - Icônes élégantes
 - **[React Toastify](https://fkhadra.github.io/react-toastify/)** - Notifications
 
 ### Backend & Services
+
 - **[Firebase Authentication](https://firebase.google.com/)** - Authentification
 - **[Gemini API](https://ai.google.dev/)** - Intelligence artificielle
 - **[Axios](https://axios-http.com/)** - Client HTTP
 
 ### Outils de Développement
+
 - **[Vite](https://vitejs.dev/)** - Build tool rapide
 - **[pnpm](https://pnpm.io/)** - Gestionnaire de paquets
 
@@ -62,6 +70,7 @@ L'application offre une expérience utilisateur fluide avec une interface dével
 ## 🚀 Installation
 
 ### Prérequis
+
 - Node.js 16+ installé
 - pnpm
 - Compte Firebase
@@ -73,6 +82,7 @@ L'application offre une expérience utilisateur fluide avec une interface dével
    ```bash
    git clone git@github.com:Zeh-Eox/auto-intelli.git
    cd auto-intelli
+   ```
 
 Installer les dépendances
 bashpnpm install
@@ -82,10 +92,12 @@ Créer un fichier .env à la racine du projet :
 env# API Configuration
 
 ## Gemini AI Configuration
+
 VITE_GEMINI_API_KEY=your_gemini_api_key
-VITE_GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
+VITE_GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
 
 ## Firebase Configuration
+
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your-project-id
@@ -99,8 +111,8 @@ bashpnpm run dev
 Accéder à l'application
 Ouvrir http://localhost:5173 dans votre navigateur.
 
-
 ## 📖 Guide d'utilisation
+
 ### Première connexion
 
 Créer un compte avec votre email
@@ -121,6 +133,7 @@ Accédez à l'historique via le menu latéral
 Recherchez dans vos conversations passées
 
 ## 🤝 Contribution
+
 Les contributions sont les bienvenues ! Voici comment procéder :
 
 Fork le projet
@@ -135,8 +148,8 @@ Utiliser ESLint et Prettier
 Écrire des tests pour les nouvelles fonctionnalités
 Documenter les changements significatifs
 
-
 ## 🐛 Signaler un bug
+
 Si vous rencontrez un problème, veuillez :
 
 Vérifier que le bug n'a pas déjà été signalé
@@ -147,40 +160,39 @@ Description détaillée du problème
 Captures d'écran si applicable
 Informations sur votre environnement
 
-
-
-
 ## 🔧 Scripts disponibles
+
 bash# Développement
-pnpm run dev          # Lancer le serveur de développement
+pnpm run dev # Lancer le serveur de développement
 
 ### Build
-pnpm run build        # Construire pour la production
-pnpm run preview      # Prévisualiser le build
+
+pnpm run build # Construire pour la production
+pnpm run preview # Prévisualiser le build
 
 ### Linting
-pnpm run lint         # Vérifier le code
-pnpm run lint:fix     # Corriger automatiquement
+
+pnpm run lint # Vérifier le code
+pnpm run lint:fix # Corriger automatiquement
 
 ### Tests
-pnpm run test         # Lancer les tests
-pnpm run test:watch   # Tests en mode watch
 
+pnpm run test # Lancer les tests
+pnpm run test:watch # Tests en mode watch
 
 ## 📄 Licence
+
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## 👥 Équipe
 
 Zeh-Eox - Développeur principal
 
-
 ## 🙏 Remerciements
 
 Google AI pour l'API Gemini
 Firebase pour l'infrastructure
 La communauté React pour les outils exceptionnels
-
 
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/Zeh-Eox">Zeh-Eox</a></p>
