@@ -45,8 +45,8 @@ mon-chatbot/
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/Zeh-Eox/auto-intelli.git
-cd mon-chatbot
+git clone git@github.com:Zeh-Eox/auto-intelli.git
+cd auto-intelli
 ```
 
 ### 2. Configuration du Frontend
