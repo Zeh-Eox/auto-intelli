@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+  font-family: Quicksand, sans-serif;
+}
+
+.bot-name {
+  font-family: "Space Grotesk", sans-serif;
+}
